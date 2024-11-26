@@ -12,7 +12,7 @@ class Game:
         pygame.init()
 
         pygame.display.set_caption('ninja game')
-        self.screen = pygame.display.set_mode((2160, 1400))
+        self.screen = pygame.display.set_mode((2160, 1280))
         self.display = pygame.Surface((320, 240))
 
         self.clock = pygame.time.Clock()
